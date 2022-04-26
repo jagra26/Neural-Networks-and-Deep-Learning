@@ -41,7 +41,7 @@ O artigo
 [Which Encoding is the Best for Text Classification in Chinese, English, Japanese and Korean?](https://paperswithcode.com/paper/which-encoding-is-the-best-for-text)
 discorre sobre diferentes classificadores, em diferentes idiomas e classificações.
 Chegando a conclusão que o fastText é de fato muito mais rápido e leve que os demais, não precisando de GPU.
-como pode ser visto na figura a seguir:
+Como pode ser visto na figura a seguir:
 
 ![CJK](https://github.com/jagra26/Neural-Networks-and-Deep-Learning/blob/main/CJK.jpg)
 
@@ -76,4 +76,6 @@ A aruitetura do projeto, contendo o fastText, pode ser vista a seguir:
 
 No paper [Imputing Out-of-Vocabulary Embeddings with LOVE Makes Language Models Robust with Little Cost](https://paperswithcode.com/paper/imputing-out-of-vocabulary-embeddings-with), 
 propõe-se um framework de aprendizado robusto a palavras fora do vocabulário (OOV), o calcanhar de Aquiles da maioria das soluções de NLP. Para tal utiliza modelos pré
-treinados como BERT e tem sua perfomance melhorada com o fastText.
+treinados como BERT. E melhora a robustez desses modelos, como o próprio fastText, como pode ser visto a seguir:
+
+![LOVE](https://github.com/jagra26/Neural-Networks-and-Deep-Learning/blob/main/LOVE.jpg)
