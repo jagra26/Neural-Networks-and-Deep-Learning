@@ -16,6 +16,11 @@ O trabalho possui 57 implementações no paperswithcode, a implementação origi
 E um módulo Python foi feito para difundir seu uso.
 Mas há implementações utilizando PyTorch, Tensorflow, Mxnet e até MindSpore.
 
+Sua performance competitiva e sua velocidade muito acima da média podem ser vistas
+em diferentes datasets na figura a seguir:
+
+![bag of tricks](https://github.com/jagra26/Neural-Networks-and-Deep-Learning/blob/main/bag%20of%20tricks.jpg)
+
 ### General Search
 
 A principal referência sobre o trabalho é a [pagina](https://fasttext.cc) da biblioteca referente a ele.
