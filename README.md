@@ -1,7 +1,8 @@
 # Neural-Networks-and-Deep-Learning
 
 João Arthur Gaia
-Jonh Lucas
+
+Jonh Lucas Alves
 
 ## Background Search
 
