@@ -70,6 +70,10 @@ No Arigo [How Effective is Incongruity? Implications for Code-mix Sarcasm Detect
 utiliza-se o fastText para se desenvolver um modelo de detecção de sarcasmo associado ao uso de "code-mix language". Chegando a um resultado tão efetivo quanto
 modelos pré-treinados, com um tempo de treinamento 10 vezes mais curto e com uso de memória reduzido.
 
+A aruitetura do projeto, contendo o fastText, pode ser vista a seguir:
+
+![sarcasm](https://github.com/jagra26/Neural-Networks-and-Deep-Learning/blob/main/sarcasm.jpg)
+
 No paper [Imputing Out-of-Vocabulary Embeddings with LOVE Makes Language Models Robust with Little Cost](https://paperswithcode.com/paper/imputing-out-of-vocabulary-embeddings-with), 
 propõe-se um framework de aprendizado robusto a palavras fora do vocabulário (OOV), o calcanhar de Aquiles da maioria das soluções de NLP. Para tal utiliza modelos pré
 treinados como BERT e tem sua perfomance melhorada com o fastText.
