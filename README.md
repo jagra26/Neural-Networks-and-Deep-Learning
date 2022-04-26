@@ -62,6 +62,10 @@ O artigo [https://paperswithcode.com/paper/fast-linear-model-for-knowledge-graph
 utiliza o fastText como plataforma para desenvolver uma baseline baseada em representação Bag of Words (BoW). Que aprende com "graphs embeddings". 
 Criando bases de conhecimento e resolvendo problemas de aprendizado supervisionado.
 
+Uma comparação entre a acurácia de diferentes metodos pode ser vista a seguir:
+
+![graph](https://github.com/jagra26/Neural-Networks-and-Deep-Learning/blob/main/graph.jpg)
+
 No Arigo [How Effective is Incongruity? Implications for Code-mix Sarcasm Detection](https://paperswithcode.com/paper/how-effective-is-incongruity-implications-for),
 utiliza-se o fastText para se desenvolver um modelo de detecção de sarcasmo associado ao uso de "code-mix language". Chegando a um resultado tão efetivo quanto
 modelos pré-treinados, com um tempo de treinamento 10 vezes mais curto e com uso de memória reduzido.
