@@ -54,6 +54,10 @@ Já o artigo [FastText.zip: Compressing text classification models](https://pape
 parte do fastText original para desenvolver um algoritmo de compactação. Perde um pouco da precisão, porém tem melhorias consideraveis no uso de 
 memória e CPU. Sendo publicado como uma extensão do fastText original.
 
+Uma comparação entre diferentes algoritmos de compressão em diferentes tamanhos de modelo pode ser vista na figura a seguir:
+
+![zip](https://github.com/jagra26/Neural-Networks-and-Deep-Learning/blob/main/zip.jpg)
+
 O artigo [https://paperswithcode.com/paper/fast-linear-model-for-knowledge-graph](https://paperswithcode.com/paper/fast-linear-model-for-knowledge-graph),
 utiliza o fastText como plataforma para desenvolver uma baseline baseada em representação Bag of Words (BoW). Que aprende com "graphs embeddings". 
 Criando bases de conhecimento e resolvendo problemas de aprendizado supervisionado.
