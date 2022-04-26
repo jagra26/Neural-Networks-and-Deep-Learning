@@ -40,16 +40,15 @@ Também ressalta que há modelos pré treinados para 157 línguas diferentes, tr
 O artigo 
 [Which Encoding is the Best for Text Classification in Chinese, English, Japanese and Korean?](https://paperswithcode.com/paper/which-encoding-is-the-best-for-text)
 discorre sobre diferentes classificadores, em diferentes idiomas e classificações.
+Chegando a conclusão que o fastText é de fato muito mais rápido e leve que os demais, não precisando de GPU.
+como pode ser visto na figura a seguir:
 
-Chega a conclusão que o fastText é de fato muito mais rápido e leve que os demais, não precisando de GPU.
+![CJK](https://github.com/jagra26/Neural-Networks-and-Deep-Learning/blob/main/CJK.jpg)
 
 O fastText tem o melhor resultado para as linguas CJK com codificação character-level n-gram.
-
-Em inglês, o fastText performou melhor com a codificação word-level n-grams. 
+Já em inglês, o fastText performou melhor com a codificação word-level n-grams. 
 Nessa mesma codificação, o fastText tem performance equivalente a outros classificadores para CJK.
-
-Ainda conclui que o fastText tem uma tendencia maior ao overfitting que redes convulucionais.
-
+Ainda conclui que o fastText tem uma tendência maior ao overfitting que redes convolucionais.
 
 Já o artigo [FastText.zip: Compressing text classification models](https://paperswithcode.com/paper/fasttextzip-compressing-text-classification),
 parte do fastText original para desenvolver um algoritmo de compactação. Perde um pouco da precisão, porém tem melhorias consideraveis no uso de 
