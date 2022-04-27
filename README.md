@@ -79,3 +79,16 @@ propõe-se um framework de aprendizado robusto a palavras fora do vocabulário (
 treinados como BERT. E melhora a robustez desses modelos, como o próprio fastText, como pode ser visto a seguir:
 
 ![LOVE](https://github.com/jagra26/Neural-Networks-and-Deep-Learning/blob/main/LOVE.jpg)
+
+[Attention Is All You Need](https://doi.org/10.48550/arXiv.1706.03762)
+
+O artigo ocupa-se na tarefa de tradução automática. Propondo uma arquitetura que dispensa a necessidade de recorrências e convoluções. O apelo modelo está na adoção de attention mechanism, que resultou em traduções de maior qualidade, mais paralelismo e um menor tempo de treinamento.
+Tanto para tradução Inglês-Alemão e Inglês-Francês, o modelo apresentou ótimos resultados. Desde os modelos mais básicos até os maiores (big Transformer) mostraram-se competitivos, mesmo com tempo de treinamento de apenas 3 dias. As comparações foram realizadas com base na pontuação BLEU.
+Um passo futuro é a adoção de entradas e saídas não textuais para modelos baseados em attention, ou seja, investigar métodos eficientes para lidar com imagem, áudio e vídeo.
+
+[Character-based Neural Networks for Sentence Pair Modeling](https://arxiv.org/abs/1805.08297) aborda o pareamento de sentenças realizando as tarefas de paraphrase identification, semantic textual similarity, and natural language inference. Diferentemente da maioria dos modelos, o experimento propôs a utilização de uma granularidade fina, utilizando-se de sub-palavras, invés de incorporar um conjunto de palavras pré treinadas.
+Foram comparados resultados de diferentes redes com hiperparâmetros de modelo que estão de acordo com estado da arte e diferentes granularidades. Por fim, foi adotada uma CNN de 19 layers baseada em PWI. 
+Os modelos com palavras incorporadas estão limitados ao conjunto de palavras adicionadas, tais conjuntos não possuem grande desempenho no ambiente de redes sociais. Portanto, o desempenho do modelo de sub-palavras obtido em datasets do Twitter, onde palavras fora do vocabulário cotidiano e com grandes diferenças ortográficas, mostra seu valor.
+![sub word](https://github.com/jagra26/Neural-Networks-and-Deep-Learning/blob/main/subwords.png)
+
+
