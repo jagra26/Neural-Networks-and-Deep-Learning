@@ -86,9 +86,19 @@ O artigo ocupa-se na tarefa de tradução automática. Propondo uma arquitetura 
 Tanto para tradução Inglês-Alemão e Inglês-Francês, o modelo apresentou ótimos resultados. Desde os modelos mais básicos até os maiores (big Transformer) mostraram-se competitivos, mesmo com tempo de treinamento de apenas 3 dias. As comparações foram realizadas com base na pontuação BLEU.
 Um passo futuro é a adoção de entradas e saídas não textuais para modelos baseados em attention, ou seja, investigar métodos eficientes para lidar com imagem, áudio e vídeo.
 
+![attention](https://github.com/jagra26/Neural-Networks-and-Deep-Learning/blob/main/attention.png)
+
 [Character-based Neural Networks for Sentence Pair Modeling](https://arxiv.org/abs/1805.08297) aborda o pareamento de sentenças realizando as tarefas de paraphrase identification, semantic textual similarity, and natural language inference. Diferentemente da maioria dos modelos, o experimento propôs a utilização de uma granularidade fina, utilizando-se de sub-palavras, invés de incorporar um conjunto de palavras pré treinadas.
 Foram comparados resultados de diferentes redes com hiperparâmetros de modelo que estão de acordo com estado da arte e diferentes granularidades. Por fim, foi adotada uma CNN de 19 layers baseada em PWI. 
 Os modelos com palavras incorporadas estão limitados ao conjunto de palavras adicionadas, tais conjuntos não possuem grande desempenho no ambiente de redes sociais. Portanto, o desempenho do modelo de sub-palavras obtido em datasets do Twitter, onde palavras fora do vocabulário cotidiano e com grandes diferenças ortográficas, mostra seu valor.
+
 ![sub word](https://github.com/jagra26/Neural-Networks-and-Deep-Learning/blob/main/subwords.png)
+
+
+[Deep contextualized word representations](https://arxiv.org/abs/1802.05365)
+O objetivo do artigo foi desenvolver uma nova maneira de representar a palavra que contenha características complexas de seu uso (sintaxe e semântica) e suas variações em diferentes contextos. Para esse fim, um deep bidirectional language model (biLM) treinado em textos de corpo longo adotado.
+Resultando em uma representação que pode facilmente ser incorporada a modelos existentes e melhorar sua performance.
+
+![bilM](https://github.com/jagra26/Neural-Networks-and-Deep-Learning/blob/main/BILM.png)
 
 
