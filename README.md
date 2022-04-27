@@ -130,5 +130,6 @@ Levando a conclusão de que grande esforço para preparação dos dados não é 
 ## Apresentação
 
 [Vídeo parte 1](https://youtu.be/gBFSBJIM9J0)
+
 [Apresentação](https://docs.google.com/presentation/d/1f8R5acsS2-kxVVNSE0N1EeIJ3NEd8OR4ED626u7fUKw/edit?usp=sharing)
 
