@@ -111,5 +111,21 @@ Para minimizar a função de custo, foi utilizado mini-batch Stochastic Gradient
 
 O experimento mostrou que a CNNs podem ter performance superior a metodologias atuais.
 
+[Is preprocessing of text really worth your time for toxic comment classification?](https://arxiv.org/abs/1806.02908)
+Filtrar comentários tóxicos é um desafio relevante para melhorar a qualidade de vida online. Como agravante, textos online possuem muitos erros de digitação. O artigo busca mensurar quanto esforço é necessário para  um ganho de desempenho, quando se pré processa o texto antes de entregá-lo ao modelo.
+Um conjunto de 35 transformações foi estabelecido. Vide alguns exemplos:
+![transforms](https://github.com/jagra26/Neural-Networks-and-Deep-Learning/blob/main/transforms.png)
+A seguir, o impacto das transformações foi avaliado, através da comparação dos resultados da entrada pré-processada entre 4 modelos. Sendo eles:
+1) Logistic regression
+2) Naive Bayes with SVM (NBSVM)
+3) Extreme Gradient Boosting (XGBoost)
+4) FastText algorithm with Bidirectional LSTM (FastText-BiLSTM)
+
+Mesmo adotando combinações de apenas 15 transformações, os resultados mostraram-se instáveis.
+![comp](https://github.com/jagra26/Neural-Networks-and-Deep-Learning/blob/main/4-model-comp.png)
+
+Levando a conclusão de que grande esforço para preparação dos dados não é necessário, sendo a escolha de um algoritmo adequado consideravelmente mais relevante.
+
+
 
 
