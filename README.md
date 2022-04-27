@@ -101,4 +101,15 @@ Resultando em uma representação que pode facilmente ser incorporada a modelos 
 
 ![bilM](https://github.com/jagra26/Neural-Networks-and-Deep-Learning/blob/main/BILM.png)
 
+[Convolutional Neural Networks for Toxic Comment Classification](https://paperswithcode.com/paper/convolutional-neural-networks-for-toxic) trata de um problema muito comum nos ambientes virtuais, a detecção de textos online que contenham ataques pessoais, assédio, bullying e etc. O paper busca provar que CNNs podem ser ferramentas eficientes para realização dessa tarefa. Sendo estrutura utilizada descrita por
+
+![CNN-stru](https://github.com/jagra26/Neural-Networks-and-Deep-Learning/blob/main/cnn-process.png)
+
+Para minimizar a função de custo, foi utilizado mini-batch Stochastic Gradient Descent (mSGD). A análise de desempenho foi realizada através da comparação entre os resultados da CNN e o modelo mais comum, BAG-OF-WORDS (BoW).
+
+![comp](https://github.com/jagra26/Neural-Networks-and-Deep-Learning/blob/main/cnn-com.png)
+
+O experimento mostrou que a CNNs podem ter performance superior a metodologias atuais.
+
+
 
