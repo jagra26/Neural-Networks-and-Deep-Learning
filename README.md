@@ -135,3 +135,8 @@ Levando a conclusão de que grande esforço para preparação dos dados não é 
 
 [Apresentação](https://docs.google.com/presentation/d/1f8R5acsS2-kxVVNSE0N1EeIJ3NEd8OR4ED626u7fUKw/edit?usp=sharing)
 
+## Reprodução
+
+[Implementação original C++](https://youtu.be/DQFa3Iu-MkY)
+[Módulo python]()
+
