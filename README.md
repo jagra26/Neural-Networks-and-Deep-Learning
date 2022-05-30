@@ -138,5 +138,6 @@ Levando a conclusão de que grande esforço para preparação dos dados não é 
 ## Reprodução
 
 [Implementação original C++](https://youtu.be/DQFa3Iu-MkY)
+
 [Módulo python]()
 
